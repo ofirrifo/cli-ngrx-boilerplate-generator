@@ -10,10 +10,10 @@ import { {{pascalCase targetFolder}}ActionTypes } from './{{targetFolder}}.actio
 export class {{pascalCase targetFolder}Effects {
 
     /**
-     * on create succeed
+     * on create {{lowerCase targetFolder}} succeed
      */
     @Effect()
-    createSucceed$: Observable<Action> = this.actions$.pipe(
+    create{{pascalCase targetFolder}Succeed$: Observable<Action> = this.actions$.pipe(
         ofType({{pascalCase targetFolder}}ActionTypes.Create{{pascalCase targetFolder}}Succeed),
         map((action: Action) => action.payload),
         map(payload => {
