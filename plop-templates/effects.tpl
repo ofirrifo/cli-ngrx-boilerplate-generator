@@ -13,7 +13,7 @@ export class {{pascalCase targetFolder}}Effects {
      * on create {{lowerCase targetFolder}} succeed
      */
     @Effect()
-    create{{pascalCase targetFolder}Succeed$: Observable<Action> = this.actions$.pipe(
+    create{{pascalCase targetFolder}}Succeed$: Observable<Action> = this.actions$.pipe(
         ofType({{pascalCase targetFolder}}ActionTypes.Create{{pascalCase targetFolder}}Succeed),
         map((action: Action) => action.payload),
         map(payload => {
