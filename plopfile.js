@@ -33,7 +33,7 @@ module.exports = function (plop) {
                     type: 'add',
                     skipIfExists: true,
                     path: getPath(directory, type),
-                    templateFile: `plop-templates/${type}.ts`,
+                    templateFile: `plop-templates/${type}.tpl`,
                     abortOnFail: true
                 }
             )
