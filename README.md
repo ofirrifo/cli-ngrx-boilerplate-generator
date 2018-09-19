@@ -8,4 +8,3 @@
 
 `store`
 
-![plop demo](http://i.imgur.com/penUFkr.gif)
