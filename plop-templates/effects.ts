@@ -4,7 +4,7 @@ import { Action } from '@app/shared/action';
 import { Observable } from 'rxjs';
 import { Empty } from '@app/core/store/core.actions';
 import { map } from 'rxjs/operators';
-import { ActionTypes } from './actions';
+import { {{pascalCase targetFolder}}ActionTypes } from './{{targetFolder}}.actions';
 
 @Injectable()
 export class Effects {
@@ -14,7 +14,7 @@ export class Effects {
      */
     @Effect()
     createSucceed$: Observable<Action> = this.actions$.pipe(
-        ofType(ActionTypes.CreateSucceed),
+        ofType({{pascalCase targetFolder}}ActionTypes.Create{{pascalCase targetFolder}}Succeed),
         map((action: Action) => action.payload),
         map(payload => {
             return new Empty();

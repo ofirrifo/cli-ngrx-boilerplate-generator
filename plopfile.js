@@ -20,7 +20,7 @@ module.exports = function (plop) {
         actions: function (data) {
             const {directory} = data;
             data.targetFolder = getTargetFolder(directory);
-            return createActions(directory, ['actions', 'effects', 'reducer']);
+            return createActions(directory, ['actions', 'effects', 'reducer', 'selector']);
         }
 
     });
