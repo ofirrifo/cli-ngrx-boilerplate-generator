@@ -7,7 +7,7 @@ import { map } from 'rxjs/operators';
 import { {{pascalCase targetFolder}}ActionTypes } from './{{targetFolder}}.actions';
 
 @Injectable()
-export class Effects {
+export class {{pascalCase targetFolder}Effects {
 
     /**
      * on create succeed
