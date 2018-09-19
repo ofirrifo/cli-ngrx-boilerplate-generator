@@ -4,7 +4,8 @@
   "description": "CLI NGRX boilerplate generator",
   "main": "index.js",
   "scripts": {
-    "plop": "plop"
+    "plop": "plop",
+    "publish":"npm publish --access=public"
   },
   "keywords": [],
   "bin": {
