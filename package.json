@@ -1,6 +1,6 @@
 {
   "name": "@ofir.fridman/ngrx-cli-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI NGRX boilerplate generator",
   "main": "index.js",
   "scripts": {
