@@ -1,5 +1,5 @@
 {
-  "name": "@rifo/ngrx-cli-generator",
+  "name": "@ofir.fridman/ngrx-cli-generator",
   "version": "1.0.0",
   "description": "CLI NGRX boilerplate generator",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "author": "Ofir Fridman",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "plop": "^2.1.0",
     "inquirer-directory": "^2.1.0",
     "shelljs": "^0.7.8"
