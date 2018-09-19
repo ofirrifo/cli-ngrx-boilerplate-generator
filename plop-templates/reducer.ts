@@ -7,7 +7,7 @@ const initialState: State = {
 
 };
 
-export function reducer(state: State = initialState, action: {{pascalCase targetFolder}}Action.Actions): State {
+export function reducer(state: State = initialState, action: {{pascalCase targetFolder}}Actions.Actions): State {
   switch (action.type) {
     default: {
       return state;
